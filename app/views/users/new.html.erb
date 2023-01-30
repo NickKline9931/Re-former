@@ -9,5 +9,7 @@
 <label for='email'>Email:</label>
 <input type='email' name='user[email]'>
 
+<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+
 <button type='submit'>Submit</button>
 </form>
